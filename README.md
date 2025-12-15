@@ -1,7 +1,8 @@
 #CHAT APP
 
-A real time chat application made with Spring boot , MySQL DB and Web socket which allows : 
+A real time chat application made with Spring boot , MySQL DB and Web socket, and JWT authentication which allows : 
 
+⦁	Secure user authentication implemented with JWT (JSON Web Tokens), ensuring stateless, tamper-proof, and scalable login sessions for all users
 ⦁	Public chatbox for testing
 ⦁	Private chatboxes for registered users
 ⦁	Chat history persistence
