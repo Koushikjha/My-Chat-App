@@ -20,6 +20,7 @@ Frontend/UI Improvments ->
 
 Backend/Scalability ->
 
+⦁	Decoupling System
 ⦁	Chat-to-chat message tables
 ⦁	Support for multiple users with load balancing
  
