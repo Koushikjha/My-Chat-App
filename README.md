@@ -2,19 +2,23 @@
 
 A real time chat application made with Spring boot , MySQL DB and Web socket which allows : 
 
-⦁	public chatbox for testing
-⦁	private chatboxes for registered users
-⦁	chat history persistence
-⦁	real time updation of message status from sent-delivered-seen
-⦁	pagination of messages (loose or infinite scrolling)
-⦁	an interactive frontend ui
+⦁	Public chatbox for testing
+⦁	Private chatboxes for registered users
+⦁	Chat history persistence
+⦁	Real time message status update (sent->delivered->seen)
+⦁	Pagination of messages with loose/infinite scrolling
+⦁	An interactive frontend UI
 
-Future modifications can be : 
+Future Enhancements : 
 
-⦁	blue ticks and timestamps in frontend for messages
-⦁	unread bubble with message counts
-⦁	last_seen-online status in real time in client-side
-⦁	chat to chat message tables
-⦁	Lazy loading/dynamic visibility of chat
-⦁	scalability for multiple users along with load balancing the requests
+Frontend/UI Improvments ->
+⦁	Blue ticks and timestamps for messages
+⦁	Unread message bubbles with counts
+⦁	Real-time last_seen / online status
+⦁	Lazy loading / dynamic visibility of chats
+
+Backend/Scalability ->
+
+⦁	Chat-to-chat message tables
+⦁	Support for multiple users with load balancing
  
